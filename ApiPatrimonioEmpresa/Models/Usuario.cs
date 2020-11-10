@@ -1,9 +1,9 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace ApiPatrimonioEmpresa.Models
+namespace TApi.Models
 {
-    public class User
+    public class Usuario
     {
         [Key]
         public int Id { get; set; }
@@ -21,6 +21,5 @@ namespace ApiPatrimonioEmpresa.Models
         [MaxLength(20, ErrorMessage = "Este campo deve conter entre 3 e 60 caracteres")]
         [MinLength(3, ErrorMessage = "Este campo deve conter entre 3 e 60 caracteres")]
         public string Password { get; set; }
-
     }
 }

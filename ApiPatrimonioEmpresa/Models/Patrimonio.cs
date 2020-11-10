@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace ApiPatrimonioEmpresa.Models
+namespace TApi.Models
 {
     public class Patrimonio
     {
